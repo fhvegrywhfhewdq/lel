@@ -1,7 +1,7 @@
 # COPYRIGHT © 2021-22 BY LEGENDX22 🔥
 # NOW PUBLIC BY LEGENDX
 import os
-os.system("pip install Telethon")
+os.system("pip install telethon")
 from telethon import TelegramClient, events, functions, types
 api_id = os.environ.get("APP_ID")
 import os, asyncio
